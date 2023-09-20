@@ -1,0 +1,24 @@
+.root {
+}
+.projectCard {
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    justify-items: center;
+    background-color: #03437d;
+    padding: 10px 20px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 3;
+  }
+  .projectCarousel {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .contentHeader {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d96262;
+    font-weight: 700;
+  }
