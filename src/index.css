@@ -216,5 +216,6 @@ button:focus-visible {
 .splitPanel {
   display: flex;
   padding: 0px 20px;
-  justify-content: space-around;
+  justify-content: space-between;
+  column-gap: -10px;
 }

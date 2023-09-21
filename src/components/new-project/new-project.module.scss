@@ -1,0 +1,26 @@
+.root {
+}
+.contentHeader {
+  font-size: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #d96262;
+  font-weight: 700;
+}
+.projectForm {
+  font-size: 20px;
+  display: inline;
+  background-color: rgba(3, 67, 125, 0.03);
+  color: #03437d;
+  padding-right: 0px;
+}
+.formField {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 0px;
+}
+.inputField {
+  padding-right: 10px;
+  padding-left: 10px;
+}

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { createBrowserRouter, Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Navbar } from './components/navbar/navbar';
 import { FrontPage } from './components/front-page/front-page';
 import styles from './App.module.scss';

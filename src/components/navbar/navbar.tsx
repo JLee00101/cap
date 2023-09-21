@@ -14,16 +14,11 @@ export interface NavbarProps {
 export const Navbar = ({ className }: NavbarProps) => {
     return (
         <nav className={styles.navBar}>
-                <li>
-                <Link to={'/'}>Home</Link>
-            </li>
-            {/*  <Link to={'/'}>
-                <h3 className={styles.navElement}>Home</h3>
-            </Link>      
+                <h3 className={styles.navElement}>Home</h3>  
                 <h3 className={styles.navElement}> Ongoing Projects</h3>
                 <h3 className={styles.navElement}> Upcoming Projects</h3>
                 <h3 className={styles.navElement}> Staff</h3>
-    <h3 className={styles.navElement}> Profile</h3> */}
+    <h3 className={styles.navElement}> Profile</h3>
         </nav>
     );
 };
