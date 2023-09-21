@@ -9,4 +9,7 @@ export default createBoard({
             <App />
         </MemoryRouter>
     ),
+    environmentProps: {
+        canvasWidth: 1060,
+    },
 });

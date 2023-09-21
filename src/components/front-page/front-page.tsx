@@ -1,5 +1,8 @@
 import classNames from 'classnames';
 import styles from './front-page.module.scss';
+import { OngoingProject } from '../ongoing-project/ongoing-project';
+import { UpcomingProject } from '../upcoming-project/upcoming-project';
+import { Sidebar } from '../sidebar/sidebar';
 
 export interface FrontPageProps {
     className?: string;
@@ -12,13 +15,13 @@ export interface FrontPageProps {
 export const FrontPage = ({ className }: FrontPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <nav>
-                <img
-                    src="https://d1.awsstatic.com/apac/customer-references-logos-(%401x---%402x)/eHealthNSW_Logo%402x.7bf59f1d50bacc6c378cb4f49be66ac88bc1201a.png"
-                    alt=""
-                />
-            </nav>
-            <div />
+            <div className="splitPanel">
+                <div>
+                    <UpcomingProject />
+                    <OngoingProject />
+                </div>
+                <Sidebar />
+            </div>
         </div>
     );
 };
